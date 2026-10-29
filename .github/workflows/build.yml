@@ -32,3 +32,4 @@ jobs:
         name: NexusOptimizer-Executavel
         path: dist/NexusOptimizer.exe
         path: dist/NexusOptimizer.exe
+        path: dist/NexusOptimizer.exe
