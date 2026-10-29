@@ -24,7 +24,7 @@ jobs:
 
     - name: Compilar para .exe com PyInstaller
       run: |
-        pyinstaller --noconsole --onefile --name "NexusOptimizer" main.py
+        pyinstaller --noconsole --onefile --collect-all customtkinter --name "NexusOptimizer" main.py
 
     - name: Registar artefato compilado
       uses: actions/upload-artifact@v4
